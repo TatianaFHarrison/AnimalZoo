@@ -8,6 +8,11 @@ public class Human extends Animal {
         isAlive = true;
     }
 
+    /**
+     * Pays the human's taxes.
+     * If the human is alive, a message will be printed indicating that the human has paid their taxes.
+     * If the human is dead, a message will be printed indicating that the human is dead and cannot pay taxes.
+     */
     public void payTaxes() {
         hasPayedTaxes = true;
         if(isAlive) {
@@ -17,11 +22,23 @@ public class Human extends Animal {
         }
     }
 
+    /**
+     * Kills the human. Prints a message stating that the human has died.
+     */
     public void die() {
         isAlive = false;
         System.out.println(name + " has died.");
     }
 
+    /**
+     * Prints a message based on the human's state. If the human is alive
+     * and has paid their taxes, they will express excitement about playing
+     * halo. If the human is dead, they will state that they are dead and
+     * the only constant is death and taxes. If the human is alive but has
+     * not paid their taxes, they will express their inability to play halo
+     * until they pay their taxes, and state that the only constant is death
+     * and taxes.
+     */
     @Override public void play() {
         if(hasPayedTaxes && isAlive) {
             System.out.println(name + " is playing halo.");
@@ -35,6 +52,16 @@ public class Human extends Animal {
         }
     }
 
+    /**
+     * Prints a message from the human depending on their state.
+     * If the human is alive and has paid their taxes, they will
+     * express excitement about playing halo. If the human is dead,
+     * they will state that they are dead and the only constant is
+     * death and taxes. If the human is alive but has not paid
+     * their taxes, they will express their inability to play halo
+     * until they pay their taxes, and state that the only constant is
+     * death and taxes.
+     */
     @Override public void sound() {
         if(isAlive && hasPayedTaxes) {
             System.out.println(name + " says: 'Woohoo! I can play Halo!'");
