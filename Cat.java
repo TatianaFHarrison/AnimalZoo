@@ -1,6 +1,6 @@
 /**
  * @Author Alan Ruelas-Cordova
- * Date: 10/15/25 
+ * Date: 10/15/25
  * Harrison
  * Cat.java
  */
