@@ -30,12 +30,3 @@ public class Chipmunk extends Animal {
     }
 
 }
-public class main {
-    public static void main(String[] args) {
-        System.out.println("Chipmunk");
-        
-        Chipmunk chipmunk = new Chipmunk("Tony Tran");
-        chipmunk.play();
-        chipmunk.sound();
-    }
-}
