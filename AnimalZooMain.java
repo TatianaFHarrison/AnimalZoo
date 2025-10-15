@@ -35,5 +35,13 @@ public class AnimalZooMain {
         human.die();
         human.play();
         human.payTaxes();
+
+        //LION
+        System.out.println("Lion Time.");
+
+        Lion lion = new Lion("Whitmore");
+        lion.sound();
+        lion.play();
+        lion.eat();
     }
 }
