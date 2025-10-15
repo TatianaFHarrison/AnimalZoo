@@ -31,16 +31,3 @@ public class Horse extends Animal {
     }
 
 }
-
-class Main {
-
-    public static void main(String[] args) {
-
-        System.out.println("Horse Time!");
-
-        Horse horse = new Horse("Orchlon");
-        horse.sound();
-        horse.play();
-
-    }
-}

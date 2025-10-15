@@ -32,17 +32,3 @@ public class Dragon extends Animal {
     }
 
 }
-
-class Main {
-
-    public static void main(String[] args) {
-
-        System.out.println("Dragon Time.");
-
-        Dragon d1 = new Dragon("Anderson");
-        d1.sound();
-        d1.play();
-        d1.eat();
-
-    }
-}
