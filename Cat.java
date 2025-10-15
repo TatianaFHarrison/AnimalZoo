@@ -3,6 +3,7 @@
  * Date: 10/15/25
  * Harrison
  * Cat.java
+ * Finalizing
  */
 
 public class Cat extends Animal{
