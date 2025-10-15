@@ -43,5 +43,13 @@ public class AnimalZooMain {
         lion.sound();
         lion.play();
         lion.eat();
+        
+        //KIWI
+        System.out.println("\nKiwi Time.");
+        
+        Kiwi kiwi = new Kiwi("Jerry");
+        kiwi.sound();
+        kiwi.play();
+        kiwi.eat();
     }
 }
