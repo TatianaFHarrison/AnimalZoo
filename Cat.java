@@ -20,7 +20,7 @@ public class Cat extends Animal{
      * The sound method that makes the cat object MEOW
      */
     public void sound(){
-        System.out.println("MEEEOW");
+        System.out.println(this.name + " said: MEEEOW");
     }
 
     /**
@@ -34,7 +34,7 @@ public class Cat extends Animal{
      * The eat method that makes the cat eat some fish
      */
     public void eat(){
-        System.out.println(this.name + "ate some fish!");
+        System.out.println(this.name + " ate some fish!");
     }
 
 

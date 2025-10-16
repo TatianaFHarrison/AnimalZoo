@@ -35,5 +35,13 @@ public class AnimalZooMain {
         human.die();
         human.play();
         human.payTaxes();
+
+        //CAT
+        System.out.println("Cat Time.");
+
+        Cat kitty = new Cat("Alan");
+        kitty.play();
+        kitty.eat();
+        kitty.sound();
     }
 }
