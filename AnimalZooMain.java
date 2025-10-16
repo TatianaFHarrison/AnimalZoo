@@ -1,3 +1,5 @@
+import javax.sql.RowSetListener;
+
 public class AnimalZooMain {
     public static void main(String[] args){
         System.out.println("Test All your animals here :)");
@@ -59,5 +61,13 @@ public class AnimalZooMain {
         kiwi.sound();
         kiwi.play();
         kiwi.eat();
+
+        //OWL
+        System.out.println("Owl time.");
+
+        Owl owl = new Owl("Athena");
+        owl.sound();
+        owl.play();
+
     }
 }
