@@ -76,5 +76,13 @@ public class AnimalZooMain {
         owl.sound();
         owl.play();
 
+        //Fox - Jessica Henry
+        System.out.println("What does the fox say!");
+        Fox fox = new Fox("Fox");
+        fox.sound();
+        fox.play();
+        fox.eat();
+
+
     }
 }
