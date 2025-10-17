@@ -30,4 +30,25 @@ public class Horse extends Animal {
         System.out.println(name + " runs around the field for fun!");
     }
 
+    /**
+     * Prints a string representing what the horse does when eating.
+     */
+    @Override
+    public void eat() {
+        System.out.println(name + " is eating hay.");
+    }
+
+}
+
+class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Horse Time!");
+
+        Horse horse = new Horse("Orchlon");
+        horse.sound();
+        horse.play();
+        horse.eat();
+    }
 }
