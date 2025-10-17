@@ -38,6 +38,13 @@ public class AnimalZooMain {
         human.play();
         human.payTaxes();
 
+        //BEARDEDDRAGON
+        System.out.println("Bearded Dragon Time");
+
+        BeardedDragon beardedDragon = new BeardedDragon("Harrison");
+        beardedDragon.play();
+        beardedDragon.sound();
+
         //CAT
         System.out.println("Cat Time.");
 
