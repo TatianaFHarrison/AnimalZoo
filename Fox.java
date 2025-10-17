@@ -1,5 +1,3 @@
-package jh;
-
 /**
  * Jessica Henry
  * Animal - the fox
